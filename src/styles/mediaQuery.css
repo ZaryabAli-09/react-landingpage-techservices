@@ -1,0 +1,44 @@
+@media screen and (max-width: 850px) {
+  .home2 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .home2 img {
+    width: 100%;
+  }
+
+  .home2-desc {
+    width: 100%;
+    text-align: center;
+  }
+
+  .home3-desc {
+    width: 95%;
+  }
+  .home4-desc {
+    width: 95%;
+  }
+  article .article-images {
+    width: 80px;
+    height: 80px;
+    border: 80px;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home2 img {
+    width: 300px;
+  }
+  .home2-desc {
+    width: 100vw;
+  }
+  .home2-desc p {
+    font-size: 0.7rem;
+  }
+  .home3-desc p {
+    font-size: 0.7rem;
+  }
+  .home4-desc p {
+    font-size: 0.7rem;
+  }
+}
